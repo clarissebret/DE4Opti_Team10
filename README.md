@@ -36,7 +36,24 @@ For each material, [runScenario](https://github.com/clarissebret/DE4Opti_Team10/
 - The genetic algorithm `ga`.
 
 # 3. Wheel cost
+
+## Start
+
+- Execute [PolynomialFitting](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Wheel/PolynomialFitting.m) to see how the hardness constraints were optained. This code also shows how Max Load per Wheel is plotted depending on the hardness. 
+
+- Execute [WheelOptimisation](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Wheel/WheelOptimisation.m) to obtain the optimisation results for all 4 different hardnesses. 
+
+## Materials
+
+Polyurethane was used for the outer wheel & ABS was used for the core. 
     
+## How does it work?
+
+For each hardness, [WheelOptimisation](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Wheel/WheelOptimisation.m) WheelOptimisation runs two optimisation solvers:
+   
+- The gradient-based model `fmincon` using the Sequential Quadratic Programming algorithm.
+- The genetic algorithm `ga`.
+
 # References
 
 - [fmincon](https://uk.mathworks.com/help/optim/ug/fmincon.html)
