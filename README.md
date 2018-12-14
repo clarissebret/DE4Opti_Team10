@@ -1,7 +1,7 @@
 # Cost optimisation of an electric skateboard
 Authors: Clarisse Bret, Sergi Capdevila
 
-The purpose of this project is to optimise the price of electric skateboards by focusing on the price of the deck and the wheels. The main barriers to price is safety in the shape of minimum load required to be supported. For the optimisation of both subsystems, fmincon and ga algorithmic models have been explored and applied. results are a deck with a cost of £18.8 and wheels with a cost of £0.54 each.
+The purpose of this project is to optimise the price of electric skateboards by focusing on the price of the deck and the wheels. The main barriers to price is safety in the shape of minimum load required to be supported. For the optimisation of both subsystems, `fmincon` and `ga` algorithmic models have been explored and applied. Results include a deck with a cost of £18.80 and wheels costing £0.54 each.
 
 # Prerequesites
 
@@ -10,8 +10,10 @@ You will need to install the [Global Optimisation Toolbox](https://uk.mathworks.
 
 # 1. Skateboard cost
 
-An average cost for the truck and electronics was extrapolated from off-shelf components.
-
+Run [totalCost](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Skateboard/totalCost.m). The objective function takes the cost of 3 components as input:
+- The cost of truck combined with electronics. An average cost of £170.64 was extrapolated from off-shelf components.
+- The optimum cost of the deck, obtained from [subsytem 1](https://github.com/clarissebret/DE4Opti_Team10/tree/master/Deck).
+- The optimum cost of wheels per unit, obtained from [subsystem 2](https://github.com/clarissebret/DE4Opti_Team10/tree/master/Wheels).
 
 # 2. Deck cost
 
