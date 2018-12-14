@@ -30,7 +30,7 @@ Run [totalCost](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Skate
 
 The set of materials was selected by plotting a material performance index using [CES Edupack](http://www.grantadesign.com/education/edupack/):
 
-![Young's Modulus versus Tensile strength material index]()
+![Young's Modulus versus Tensile strength material index](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Deck/PerformanceIndex.PNG)
 
 Materials include: Maple (acer rubrum), Birch (betula verrucosa), Pine (pinus elloittii), Bamboo, Ash (fraxinus excelsior), Oak (quercus virginiana), Beech (fagus sylvatica), PA66 (40% long glass fiber).
 
