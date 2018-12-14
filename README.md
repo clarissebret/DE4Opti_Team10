@@ -45,7 +45,9 @@ For each material, [runScenario](https://github.com/clarissebret/DE4Opti_Team10/
 
 ## Start
 
-- Execute [PolynomialFitting](https://github.com/sc8515/DE4Opti_Team10_Sergi/blob/master/Wheel/PolynomialFitting.m) to create a polynomial fit for each hardness table & generate a visual representation of the maximum load per wheel hardness tables. The results are 4 different polynomials that will work as constraints in their respective optimisation models. 
+- Execute [PolynomialFitting](https://github.com/sc8515/DE4Opti_Team10_Sergi/blob/master/Wheel/PolynomialFitting.m) to create a polynomial fit for each hardness table & generate a visual representation of the maximum load per wheel hardness tables. The results are 4 different polynomials that will work as constraints in their respective optimisation models.
+
+![](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Wheels/hardnessGraph.png)
 
 - Execute [WheelOptimisation](https://github.com/sc8515/DE4Opti_Team10_Sergi/blob/master/Wheel/WheelOptimisation.m) to find the optimal values for all 8 optimisation models (4 different models optimised with 2 different optimisation algorithms) 
 
